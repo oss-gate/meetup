@@ -1,0 +1,22 @@
+name: OSS Gate Pass 2026 talk
+description: OSS Gate Pass 2026 の登壇応募用テンプレート
+title: "OSS Gate Pass 2026 talk"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        OSS Gate Pass は OSS Gate カンファレンスです。
+        イベントページ: https://oss-gate.doorkeeper.jp/events/197019
+  - type: input
+    id: name
+    attributes:
+      label: 名前
+      description: ハンドルネーム可
+    validations:
+      required: true
+  - type: input
+    id: talk-title
+    attributes:
+      label: トークタイトル
+    validations:
+      required: true
