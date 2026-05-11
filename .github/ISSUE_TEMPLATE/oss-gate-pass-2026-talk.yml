@@ -1,0 +1,23 @@
+name: OSS Gate Pass 2026 talk
+description: OSS Gate Pass 2026 の登壇応募用テンプレート
+title: "OSS Gate Pass 2026 talk"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        [OSS Gate Pass 2026](https://oss-gate.doorkeeper.jp/events/197019)はOSS Gate 10周年記念オフラインカンファレンスです。
+        これまでのOSS Gateの活動に参加したみなさんが助かったこと・気づいたこと・うれしかったことなどOSS Gateに参加して印象に残っていることを話してください！
+        トークする人もイベントへの登録を忘れないでください！
+  - type: input
+    id: name
+    attributes:
+      label: 名前
+      description: ハンドルネーム可
+    validations:
+      required: true
+  - type: input
+    id: talk-title
+    attributes:
+      label: トークタイトル
+    validations:
+      required: true
