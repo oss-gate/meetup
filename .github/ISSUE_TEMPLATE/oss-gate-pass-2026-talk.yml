@@ -8,6 +8,8 @@ body:
         [OSS Gate Pass 2026](https://oss-gate.doorkeeper.jp/events/197019)はOSS Gate 10周年記念オフラインカンファレンスです。
         これまでのOSS Gateの活動に参加したみなさんが助かったこと・気づいたこと・うれしかったことなどOSS Gateに参加して印象に残っていることを話してください！
         トークする人もイベントへの登録を忘れないでください！
+
+        締切は6月30日です！
   - type: input
     id: name
     attributes:
