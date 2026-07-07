@@ -1,0 +1,35 @@
+name: OSS Gate Pass 2026企画
+description: OSS Gate Pass 2026での企画応募用テンプレート
+title: "OSS Gate Pass 2026企画"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        [OSS Gate Pass 2026](https://oss-gate.doorkeeper.jp/events/197019)はOSS Gate 10周年記念オフラインカンファレンスです。
+
+        10年間活動してきて、日本各地からOSS Gate関係者が集まるはじめてのイベントになります。OSS Gateのみんなとこんなことをしたらよいのでは！？という企画を募集します！本カンファレンスの運営もできるだけ協力するので、これは実現が難しいかも。。。？という企画でもぜひ応募してください！
+
+        企画する人もイベントへの登録を忘れないでください！
+
+        締切は8月31日です！
+
+        遠方から参加してくれる人の交通費・宿泊費をサポートします。あるいは、所属組織がサポートしてくれたらその組織を「トラベルスポンサー」として宣伝します。対象者はその旨も教えてください！
+  - type: input
+    id: name
+    attributes:
+      label: 名前
+      description: ハンドルネーム可
+    validations:
+      required: true
+  - type: input
+    id: plan-title
+    attributes:
+      label: 企画タイトル
+    validations:
+      required: true
+  - type: textarea
+    id: plan-description
+    attributes:
+      label: 企画説明
+    validations:
+      required: true
